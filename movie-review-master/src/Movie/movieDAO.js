@@ -4,7 +4,7 @@ require('../dbconfig/dbfile')
 async function saveMovie(movie, done){
     const data = await product.save();
 
-    done(undefined. data)
+    done(undefined, data)
 }
 
 async function getMovieById(movie, movieId, done){
